@@ -1,0 +1,56 @@
+		*{
+		  margin: 0;
+		  padding: 0;
+		}
+		body{
+		  font-family: 'Tenali Ramakrishna', tahoma, sans-serif;
+			font-size: 15px;
+		}
+		.navbar{
+		  background-color: #2e363a;
+		  min-height: 40px;
+		  line-height: 40px;
+		}
+    	.jumbotron{
+    		background-image: url("img/warehouse_1.jpg");
+			background-size: cover;
+			margin-top: 70px;
+
+    	}
+    	@media(max-width: 320px){
+    		.jumbotron{
+    			background: #2e363a;
+    		}
+    	}
+    	.navbar .navbar-nav .nav-item a{
+    		color: white;
+    		font-weight: 550;
+    	}
+
+    	.navbar .navbar-nav .nav-item a:hover{
+    		color: green;
+    		font-size: 1.2em;
+    	}    	
+
+    	.navbar .navbar-nav .nav-item {
+    		padding-left: 10px;
+    	}
+
+    	.navbar .navbar-nav .nav-item .active{
+    		color: green;
+    	}
+
+		#title{
+			font-weight: bold;
+			font-size: 34pt;
+			color: white;
+		}
+
+		.country_slider { padding-bottom: 3em; }
+		.country_slider .slide h4 { color:rgba(255,255,255,0.4); text-transform: uppercase; font-weight: 300; text-align:center; line-height:1.6em;}	
+
+		.card .card-body{
+			background-color: #304C63;
+			color: white;
+		}	
+
